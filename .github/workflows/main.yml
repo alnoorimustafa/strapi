@@ -8,6 +8,9 @@ on:
     
 env: 
   APP_KEYS: mBUu5KYMQqrl8GAT/D4VYg==,O+OFu9V21gziY9DLw6h1VA==,RIB1x09quecLID8HBnpxMw==,eyTM/IO/oigZCN3F2ICYdg==
+  API_TOKEN_SALT: OYe8GBk14SSj2asL644mAw==
+  ADMIN_JWT_SECRET: qgT6UismlLyVoztmj+Spcg==
+  JWT_SECRET: ZVof0TZ/9MJrnWE7WrdtDg==
     
 jobs:
   test:
