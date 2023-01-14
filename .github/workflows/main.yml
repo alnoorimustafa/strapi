@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [ "master" ]
     
+env: 
+  APP_KEY: mBUu5KYMQqrl8GAT/D4VYg==,O+OFu9V21gziY9DLw6h1VA==,RIB1x09quecLID8HBnpxMw==,eyTM/IO/oigZCN3F2ICYdg==
+    
 jobs:
   test:
     runs-on: ubuntu-latest
